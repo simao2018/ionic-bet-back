@@ -1,7 +1,7 @@
 import { Column, Entity, OneToOne } from "typeorm";
 import { ResultDto } from "../dto/result.dto";
+import { MatchResult } from "../shared/constant";
 import { BaseEntity } from "./base.entity";
-import { MatchResult } from "../../shared/constant";
 
 export enum ResultType {
     USER = "USER",

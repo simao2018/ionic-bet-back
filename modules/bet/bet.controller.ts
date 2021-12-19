@@ -6,9 +6,9 @@ import { User } from "../user/user.entity";
 import { BetDto, GetBetAndMatchComputer, GetBetRequest, GetBetResponse, GetBetsResponse } from "./bet.dto";
 import { Bet, BetResult, BetState } from "./bet.entity";
 import { Result, ResultType } from "../../entities/result.entity";
-import { MatchResult } from "../../../shared/constant";
 import { Match } from "../match/match.entity";
 import { v4 as guid } from 'uuid';
+import { MatchResult } from "../../shared/constant";
 
 
 

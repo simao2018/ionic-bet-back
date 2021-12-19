@@ -5,8 +5,7 @@ import { GetLoginRequest, GetUserResponse, UserDto } from "./user.dto";
 import { User } from "./user.entity";
 import * as bcrypt from 'bcrypt'
 import { JwtService } from "@nestjs/jwt";
-import { JwtPayload } from "../../../shared/jwtpayload";
-import { Response } from "express";
+import { JwtPayload } from "../../shared/jwtpayload";
 
 
 @Injectable()
